@@ -195,7 +195,7 @@ public class WebViewActivity extends Activity {
         setContentView(layout);
 
         String url = getIntent().getStringExtra("url");
-        String buttonText = getIntent().getStringExtra("buttonText");
+        buttonText = getIntent().getStringExtra("buttonText");
         appUUID = extractUUIDFromUrl(url);
         
         Log.d(TAG, "URL: " + url + ", buttonText: " + buttonText);
